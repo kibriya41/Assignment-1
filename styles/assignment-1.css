@@ -174,3 +174,167 @@ p {
     font: size 16px;
 }
 
+
+/* notes styling */
+
+.notes-section {
+  padding: 120px 44px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color:#001931;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color:#627382;
+  margin-bottom: 50px;
+}
+
+.card-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 40px 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.icon-circle {
+  background-color: #F95555;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.card h3 {
+  color: var(--primary-dark);
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color:#627382;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+
+/* brain style */
+.brain-section {
+  padding: 120px 5%;
+  background-color: #ffffff;
+}
+
+.brain-container {
+  max-width: 1260px;
+  margin: 0 auto;
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.visual-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  max-width: 600px; 
+  width: 600px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;s
+}
+
+
+.content-side {
+  flex: 1;
+}
+
+.label {
+  color: #469165;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 1.2px;
+}
+
+h2 {
+  font-size: 3.2rem;
+  color: #001931
+  margin: 15px 0 25px;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+p {
+  color: #627382;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  font-size: 1.15rem;
+}
+
+.benefit-list {
+  list-style: none;
+  padding: 0;
+}
+
+.benefit-list li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 16px;
+  color:#627382;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+
+.benefit-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: white;
+  background-color: #30B868;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
