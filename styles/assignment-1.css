@@ -338,3 +338,39 @@ p {
   font-size: 0.8rem;
   font-weight: bold;
 }
+
+/* cta style */
+.cta-section {
+  padding: 120px 120px;
+  background-color: #ffffff;
+}
+
+.cta-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 40px;
+  color: #001931;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.cta-subtext {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+
+
+.cta-footer-note {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #627382;
+}
